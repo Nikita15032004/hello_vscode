@@ -1,0 +1,23 @@
+.product__column {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-preferred-size: 50%;
+	flex-basis: 50%;
+}
+
+.product__column h1 {
+	color: red;
+	font-size: 30px;
+	line-height: 18px;
+	max-width: 100%;
+}
+.red {
+	color: red;
+	
+}
+@media (max-width: 967px) {
+	.red {
+		color: blue;
+	}
+}

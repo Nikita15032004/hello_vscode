@@ -1,0 +1,18 @@
+.wrapper {
+}
+.product {
+	&__item {
+	}
+
+	&__column {
+		display: flex;
+		flex-basis: 50%;
+		
+	}
+	&__column h1 {
+		color: red;
+		font-size: 30px;
+		line-height: 18px;
+		max-width: 100%;
+	}
+}
